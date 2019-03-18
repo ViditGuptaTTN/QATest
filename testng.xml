@@ -3,7 +3,7 @@
 
     <test name="order">
         <classes>
-            <class name="qa.Demo" />
+            <class name="practice.RegSuccess" />
         </classes>
     </test>
 
