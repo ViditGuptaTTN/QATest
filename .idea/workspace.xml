@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9b72d8-dbf1-4cd6-b0a1-8025bf0d9bda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/RegSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/RegSuccess.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -33,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/practice/RegSuccess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-262">
-              <caret line="116" column="41" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
+            <state relative-caret-position="76">
+              <caret line="362" column="101" selection-start-line="362" selection-start-column="101" selection-end-line="362" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,7 +185,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552892512769" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552894472078" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -326,15 +325,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegSuccess_city - 2019.03.18 at 12h 14m 27s.xml">
-      <configuration name="RegSuccess.city" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegSuccess_city_(1) - 2019.03.18 at 12h 15m 44s.xml">
-      <configuration name="RegSuccess.city (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegSuccess_city - 2019.03.18 at 12h 21m 42s.xml">
-      <configuration name="RegSuccess.city" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="RegSuccess_date - 2019.03.18 at 12h 22m 24s.xml">
       <configuration name="RegSuccess.date" configurationId="TestNG" />
     </history-entry>
@@ -356,6 +346,15 @@
     <history-entry file="_home_ttn_Downloads_intellij_backup_IdeaProjects_QATest_testng_xml - 2019.03.18 at 12h 31m 40s.xml">
       <configuration name="/home/ttn/Downloads/intellij backup/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_home_ttn_Downloads_intellij_backup_IdeaProjects_QATest_testng_xml - 2019.03.18 at 12h 53m 55s.xml">
+      <configuration name="/home/ttn/Downloads/intellij backup/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_ttn_Downloads_intellij_backup_IdeaProjects_QATest_testng_xml - 2019.03.18 at 12h 55m 56s.xml">
+      <configuration name="/home/ttn/Downloads/intellij backup/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_ttn_Downloads_intellij_backup_IdeaProjects_QATest_testng_xml - 2019.03.18 at 12h 59m 04s.xml">
+      <configuration name="/home/ttn/Downloads/intellij backup/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="2273000" />
@@ -373,8 +372,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3257329" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39739415" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3257329" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -493,20 +492,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/practice/RegSuccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="362" column="101" selection-start-line="362" selection-start-column="101" selection-end-line="362" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/practice/RegSuccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="116" column="41" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

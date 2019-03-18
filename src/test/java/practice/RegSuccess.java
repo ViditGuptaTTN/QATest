@@ -26,7 +26,7 @@ WebDriver driver;
 //        return(driver);
     }
 
-    @Test
+    @Test(priority = 0)
     public void register(){
 //        driver = setDriver();
         Properties prop = new Properties();
@@ -63,7 +63,7 @@ WebDriver driver;
 
     }
 
-    @Test()
+    @Test(priority=1)
     public void login(){
 //         driver = setDriver();
         Properties prop = new Properties();
@@ -86,7 +86,7 @@ WebDriver driver;
     }
 
 
-    @Test(description = "departure and arival city negative test case",dependsOnMethods = {"login"},priority = 2)
+    @Test(description = "departure and arival city negative test case",dependsOnMethods = {"login"},priority = 4)
     public void city() throws InterruptedException {
        // driver.findElements(By.name("tripType")).get(0).click();
         //Passengers
@@ -288,68 +288,7 @@ WebDriver driver;
 
         //continue button clicked
         driver.findElement(By.name("reserveFlights")).submit();
-/*   ***original
 
-        String depart_text;
-
-        driver.navigate().refresh();
-
-        try {
-
-            depart_text = depart.getText();
-
-
-        }
-        catch (StaleElementReferenceException e)
-        {
-            depart = driver.findElement(By.name("fromPort"));
-
-            depart_text = depart.getText();
-            Thread.sleep(300);
-
-            //  depart=driver.findElement(By.name("fromPort"));
-            //departdrop.selectByVisibleText("Acapulco");
-        }
-       driver.navigate().refresh();
-        // driver.findElement(By.xpath("xpath here")).
-
-
-
-
-
-        //driver.navigate().refresh();
-        String arrive_text;
-
-        try {
-
-           arrive_text=arrive.getText();
-
-
-        }
-        catch (StaleElementReferenceException e)
-        {
-            arrive = driver.findElement(By.name("toPort"));
-
-            arrive_text = arrive.getText();
-Thread.sleep(300);
-            //  depart=driver.findElement(By.name("fromPort"));
-            //departdrop.selectByVisibleText("Acapulco");
-        }
-*/
-
-        // driver.navigate().refresh();
-
-/*     *****original
-        try {
-            // Making the test fail
-            Assert.assertNotEquals(depart_text, arrive_text);
-
-        } catch(Error e){
-            // Following lines will be printed when the assert condition fails
-            System.out.println("test case");
-            System.out.println("Error message: " + e.toString());
-        }
-*/
 
 
 
