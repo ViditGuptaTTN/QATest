@@ -7,8 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -26,7 +25,7 @@ WebDriver driver;
 //        return(driver);
     }
 
-    @Test(priority = 0)
+    @BeforeClass
     public void register(){
 //        driver = setDriver();
         Properties prop = new Properties();
@@ -63,7 +62,7 @@ WebDriver driver;
 
     }
 
-    @Test(priority=1)
+    @BeforeMethod
     public void login(){
 //         driver = setDriver();
         Properties prop = new Properties();
@@ -86,7 +85,7 @@ WebDriver driver;
     }
 
 
-    @Test(description = "departure and arival city negative test case",dependsOnMethods = {"login"},priority = 4)
+    @Test(description = "departure and arrival city negative test case",priority = 3)
     public void city() throws InterruptedException {
        // driver.findElements(By.name("tripType")).get(0).click();
         //Passengers
@@ -168,7 +167,7 @@ WebDriver driver;
     //*******Arrival and Departure date
 
 
-    @Test(description = "Departure date should be less than arrival date ",dependsOnMethods = {"register","login"} ,priority = 5)
+    @Test(description = "Departure date should be less than arrival date ",priority = 5)
     public void date() throws InterruptedException {
          driver.findElement(By.xpath("//input[@value='roundtrip']")).click();
         //Passengers
@@ -235,7 +234,7 @@ WebDriver driver;
 
 
 
-    @Test(description = "end to end",priority = 3,dependsOnMethods = {"login"})
+    @Test(description = "end to end",priority = 3)
 
     public void flightFind() throws IOException, InterruptedException {
 
@@ -360,7 +359,7 @@ WebDriver driver;
 
 
 
-    @Test(description = "empty passengers field",dependsOnMethods = {"register","login"},priority = 4)
+    @Test(description = "empty passengers field",priority = 4)
 
     public void book_flight() throws IOException, InterruptedException {
 

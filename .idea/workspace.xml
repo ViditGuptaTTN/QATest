@@ -36,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/practice/RegSuccess.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="362" column="101" selection-start-line="362" selection-start-column="101" selection-end-line="362" selection-end-column="101" />
+              <caret line="364" column="49" selection-start-line="364" selection-start-column="49" selection-end-line="364" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,6 +61,7 @@
       <find>end t</find>
       <find>priority = 4</find>
       <find>priority = 3</find>
+      <find>book</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -185,7 +186,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552894472078" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552895900416" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -325,21 +326,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegSuccess_date - 2019.03.18 at 12h 22m 24s.xml">
-      <configuration name="RegSuccess.date" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegSuccess_date_(1) - 2019.03.18 at 12h 23m 13s.xml">
-      <configuration name="RegSuccess.date (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegSuccess_flightFind - 2019.03.18 at 12h 24m 04s.xml">
-      <configuration name="RegSuccess.flightFind" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_ttn_Downloads_intellij_backup_IdeaProjects_QATest_testng_xml - 2019.03.18 at 12h 25m 46s.xml">
-      <configuration name="/home/ttn/Downloads/intellij backup/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegSuccess_city_(1) - 2019.03.18 at 12h 28m 22s.xml">
-      <configuration name="RegSuccess.city (1)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_home_ttn_Downloads_intellij_backup_IdeaProjects_QATest_testng_xml - 2019.03.18 at 12h 29m 34s.xml">
       <configuration name="/home/ttn/Downloads/intellij backup/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -353,6 +339,21 @@
       <configuration name="/home/ttn/Downloads/intellij backup/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_home_ttn_Downloads_intellij_backup_IdeaProjects_QATest_testng_xml - 2019.03.18 at 12h 59m 04s.xml">
+      <configuration name="/home/ttn/Downloads/intellij backup/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_ttn_Downloads_intellij_backup_IdeaProjects_QATest_testng_xml - 2019.03.18 at 13h 05m 46s.xml">
+      <configuration name="/home/ttn/Downloads/intellij backup/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_ttn_Downloads_intellij_backup_IdeaProjects_QATest_testng_xml - 2019.03.18 at 13h 12m 51s.xml">
+      <configuration name="/home/ttn/Downloads/intellij backup/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_ttn_Downloads_intellij_backup_IdeaProjects_QATest_testng_xml - 2019.03.18 at 13h 16m 14s.xml">
+      <configuration name="/home/ttn/Downloads/intellij backup/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_ttn_Downloads_intellij_backup_IdeaProjects_QATest_testng_xml - 2019.03.18 at 13h 20m 38s.xml">
+      <configuration name="/home/ttn/Downloads/intellij backup/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_ttn_Downloads_intellij_backup_IdeaProjects_QATest_testng_xml - 2019.03.18 at 13h 24m 10s.xml">
       <configuration name="/home/ttn/Downloads/intellij backup/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -405,7 +406,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3257329" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -423,8 +424,8 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-      <window_info anchor="right" x="0" y="0" width="274" height="543" id="Documentation" order="10" side_tool="true" weight="0.32960895" />
+      <window_info anchor="right" x="0" y="0" width="274" height="543" id="Documentation" order="9" side_tool="true" weight="0.32960895" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32960895" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +496,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/practice/RegSuccess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="362" column="101" selection-start-line="362" selection-start-column="101" selection-end-line="362" selection-end-column="101" />
+          <caret line="364" column="49" selection-start-line="364" selection-start-column="49" selection-end-line="364" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
